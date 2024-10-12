@@ -99,6 +99,13 @@ main {
  
 }
 
+@media (max-width: 410px) {
+    .cartao {
+        margin: 0px 0px; 
+    }
+
+}
+
 @keyframes animacao-imagem-perfil {
 
   30% {
