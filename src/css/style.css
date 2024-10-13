@@ -73,9 +73,9 @@ main {
    align-items: center;
    width: 300px;
    margin-bottom: 10px;
-   border-radius: 10px;
    background-color: #a239c2;
    border: 4px solid #524d4d;
+   box-shadow: 10px 5px 5px 2px #000; 
 }
 
 .cartao .redes li:last-child {
@@ -92,16 +92,16 @@ main {
 }
 
 .cartao .redes li:hover{
-    background-color: #000;
+    background-color: #bd19bd;
     cursor: pointer;
     border-color: #550d6b;
-    transition: 0.3s;
- 
+    transition: 0.2s;
+    border-radius: 10px;
 }
 
 @media (max-width: 410px) {
     .cartao {
-        margin: 0px 0px; 
+        margin: 0px 0px;
     }
 
 }
