@@ -65,9 +65,10 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
-.cartao .redes li {
+.cartao .redes div {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -78,12 +79,12 @@ main {
    box-shadow: 10px 5px 5px 2px #000; 
 }
 
-.cartao .redes li:last-child {
-    margin-bottom: 30px;
+.cartao .redes p {
+    padding: 10px;
 }
 
 .cartao .redes a {
-    padding: 10px;
+    padding: 5px;
     align-items: center;
     gap: 10px;
     font-size: 20px;
@@ -91,7 +92,7 @@ main {
     color: #fff;
 }
 
-.cartao .redes li:hover{
+.cartao .redes div:hover{
     background-color: #bd19bd;
     cursor: pointer;
     border-color: #550d6b;
